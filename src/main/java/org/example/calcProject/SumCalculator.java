@@ -1,6 +1,7 @@
 package org.example.calcProject;
 
 public class SumCalculator {
+    //Sum
     public int sum(int n){
         if(n==0|| n<0){
             throw new IllegalArgumentException("Use numbers higher than zero ");
